@@ -1,0 +1,11 @@
+.divcontainer {
+display: flex;
+background-color: black;
+color: white;
+border: 10px yellow;
+}
+
+.one {
+border: 1px yellow;
+
+}
