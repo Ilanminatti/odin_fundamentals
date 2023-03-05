@@ -1,0 +1,36 @@
+* {
+    border: 1px solid pink;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.panel {
+    padding:0px 40px;
+    display: flex;
+}
+
+.header {
+    background-color: #00004d;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 60px;
+    width: 60px;
+    margin: 0;
+    align-self: center;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.links div {
+    color: white;
+}
