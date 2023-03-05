@@ -13,9 +13,10 @@ body {
 }
 
 .header {
-    background-color: #00004d;
+    background-color: #1F2937;
     display: flex;
     justify-content: space-between;
+    height: 60px;
 }
 
 .logo {
@@ -34,3 +35,7 @@ body {
 .links div {
     color: white;
 }
+
+/* .banner {
+    display: flex;
+} */
