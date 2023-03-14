@@ -1,10 +1,6 @@
-* {
-    border: 1px solid pink;
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
-/* body {
-padding: 0 30px;
-} */
 
 .logo {
     height: 30px;
@@ -15,6 +11,7 @@ padding: 0 30px;
 .header {
     display: flex;
     justify-content: space-between;
+    padding: 10px 0;
     background-color: #1F2937;
 }
 
@@ -53,7 +50,9 @@ padding: 0 30px;
 .signup {
     color: white;
     background-color: #4d94ff;
-    border-radius: 10px;
+    border: none;
+    border-radius: 7px;
+    padding: 5px 20px;
 }
 
 .title,
@@ -138,26 +137,48 @@ padding: 0 30px;
 .calltoact {
     background-color: #4d94ff;
     display: flex;
-    margin: 0 40px;
+    margin: 40px 40px;
     justify-content: space-around;
     flex-wrap: wrap;
+    border-radius: 10px;
+    padding: 25px 0;
 }
 
 .calltextbox {
     display: flex;
     flex-direction: column;
-    gap: 100px;
+/*     gap: 5px; */
 }
 
 .calltitle {
     font-size: 22px;
     font-weight: 800;
     color: white;
-    padding-bottom: 5px;
+
 }
 
 .calltext {
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 200;
     color: white;
+}
+
+.final {
+    color: white;
+    background-color: #4d94ff;
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 0 30px;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    padding: 12px 0;
+    justify-content: center;
+}
+
+.copyrght {
+    color: white;
+
 }
