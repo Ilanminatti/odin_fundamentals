@@ -28,7 +28,9 @@ padding: 0 30px;
 
 .happyvape {
     width: 320px;
-    padding-right: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
+    border: 4px #99c2ff solid;
 }
 
 .banner {
@@ -46,6 +48,12 @@ padding: 0 30px;
     align-items: flex-start;
     gap: 10px;
     padding-left: 30px;
+}
+
+.signup {
+    color: white;
+    background-color: #4d94ff;
+    border-radius: 10px;
 }
 
 .title,
@@ -67,11 +75,12 @@ padding: 0 30px;
 .promoimg {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 20px;
 }
 
 .rdminfo {
-    align-self: center;
+    align-text: center;
     padding-top: 20px;
     font-size:xx-large;
 }
@@ -82,13 +91,14 @@ padding: 0 30px;
     padding: 0 110px 0 110px;
     gap: 15px;
     padding-bottom: 40px;
+    flex-wrap: wrap;
 
 }
 
 .card img {
     height: 200px;
     border-radius: 10px;
-    border: 3px solid black;
+    border: 4px solid #99c2ff;
     flex: 0 1 80px;
 }
 
@@ -102,4 +112,52 @@ padding: 0 30px;
 .caption {
     font-size: x-small;
     text-align: center;
+}
+
+.quotebox {
+    display: flex;
+    flex-direction: column;
+    padding: 40PX 110px 040PX 110px;
+    background-color: #E5E7EB;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.author {
+    font-size: 27px;
+    font-weight: 700;
+    align-self: flex-end;
+    padding-top: 8px;
+}
+
+.calltoact {
+    background-color: #4d94ff;
+    display: flex;
+    margin: 0 40px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.calltextbox {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.calltitle {
+    font-size: 22px;
+    font-weight: 800;
+    color: white;
+    padding-bottom: 5px;
+}
+
+.calltext {
+    font-size: 18px;
+    font-weight: 200;
+    color: white;
 }
